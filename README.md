@@ -1,8 +1,9 @@
 【SCARA_Parallel】
 =
+![image](https://github.com/Yangtao123droid/SCARA_Parallel/blob/main/Docs/SCARA.png)
+
 毕设设计的一款并联SCARA机械臂，闭环步进电机，谐波减速，碳纤维杆件，3D打印关节，运动控制，直线插补
 =
-
 后面会慢慢更新MATLAB运动学仿真、基于STM32F407的运动控制代码、插补代码以及一些思路分享等等
     
 更新说明
