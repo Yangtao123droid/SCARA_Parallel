@@ -1,6 +1,7 @@
 【SCARA_Parallel】
 =
 ![image](https://github.com/Yangtao123droid/SCARA_Parallel/blob/main/Docs/SCARA.png)
+![image](https://github.com/Yangtao123droid/SCARA_Parallel/blob/main/Docs/SCARA_Model.png)
 
 毕设设计的一款并联SCARA机械臂，闭环步进电机，谐波减速，碳纤维杆件，3D打印关节，运动控制，直线插补
 =
@@ -14,7 +15,6 @@
 =
 1.1、电机的选择  
 =
-
 电机因为成本考虑问题和项目工作量问题，没有选择使用伺服电机或者无刷电机作为驱动关节，而是选用的
     
 闭环步进电机电机的型号是杰美康的57J1880，在闲鱼上淘的,加驱动器一套大概150元，驱动器的型号是2HSS57，
@@ -23,3 +23,15 @@
 
 一样，发脉冲就好了。
 
+后面有时间也许会考虑做一个无刷电机作为关机的版本，FOC控制，可以加入动力学的控制
+
+![image](https://github.com/Yangtao123droid/SCARA_Parallel/blob/main/Docs/Motor_Driver.png)
+
+1.2、减速器
+=
+减速器选用的谐波减速，在闲鱼上淘的leaderdrive绿的谐波的LSCG系列减速器，17-50，减速比50，450元一个，减速器与电机
+
+出轴的尺寸不一样，当时这里自己画了一个连轴器，相当于把电机轴加粗然后插进减速器的孔里面，用键销固定，再上顶丝，电机端本
+
+来就是D型轴，直接卡住就好了，发的模型里面都可以找到零件和装配方法。
+![image](https://github.com/Yangtao123droid/SCARA_Parallel/blob/main/Docs/harmonic.jpg)
