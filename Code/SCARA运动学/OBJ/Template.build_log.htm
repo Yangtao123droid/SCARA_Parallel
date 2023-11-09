@@ -1,0 +1,129 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: DD Lenovo, DD, LIC=DSNXV-PM0TF-VJM6J-UHU9S-DYASX-19VUU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+E:\Young_personal_project\SCARA\Code\SCARA运动学\USER\Template.uvprojx
+Project File Date:  04/22/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Template'
+assembling startup_stm32f40_41xxx.s...
+compiling stm32f4xx_rcc.c...
+compiling usart.c...
+..\HARDWARE\SCARA\SCARA.h(37): warning:  #1295-D: Deprecated declaration Position_init - give arg types
+  int Position_init();
+..\HARDWARE\SCARA\SCARA.h(38): warning:  #1295-D: Deprecated declaration motion - give arg types
+  void motion();
+..\HARDWARE\SCARA\SCARA.h(39): warning:  #1295-D: Deprecated declaration Coordinate_Transformation - give arg types
+  void Coordinate_Transformation();
+..\SYSTEM\usart\usart.c(128): warning:  #550-D: variable "Res" was set but never used
+  	u8 Res;
+..\SYSTEM\usart\usart.c: 4 warnings, 0 errors
+compiling misc.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_it.c...
+compiling sys.c...
+compiling key.c...
+..\HARDWARE\KEY\key.c(57): warning:  #940-D: missing return statement at end of non-void function "KEY_Scan"
+  }
+..\HARDWARE\KEY\key.c: 1 warning, 0 errors
+compiling stm32f4xx_usart.c...
+compiling led.c...
+compiling delay.c...
+compiling stm32f4xx_gpio.c...
+compiling main.c...
+..\HARDWARE\SCARA\SCARA.h(37): warning:  #1295-D: Deprecated declaration Position_init - give arg types
+  int Position_init();
+..\HARDWARE\SCARA\SCARA.h(38): warning:  #1295-D: Deprecated declaration motion - give arg types
+  void motion();
+..\HARDWARE\SCARA\SCARA.h(39): warning:  #1295-D: Deprecated declaration Coordinate_Transformation - give arg types
+  void Coordinate_Transformation();
+..\HARDWARE\BALANCE\balance.h(43): warning:  #1295-D: Deprecated declaration X_PID_INIT - give arg types
+  void X_PID_INIT();
+..\HARDWARE\BALANCE\balance.h(44): warning:  #1295-D: Deprecated declaration Y_PID_INIT - give arg types
+  void Y_PID_INIT();
+main.c(41): warning:  #223-D: function "TIM5_config" declared implicitly
+    TIM5_config(50-1,8400-1);	//定时??时??84M，??频系??8400，????84M/8400=10Khz?募???频?剩???5000??为500ms     
+main.c(42): warning:  #223-D: function "uart_init" declared implicitly
+  	uart_init(76800);
+main.c: 8 warnings, 0 errors
+#223-D: function "printf" declared implicitly
+  	  	printf("%.2f\r\n",arr1);//??印
+compiling stm32f4xx_tim.c...
+compiling xbox.c...
+compiling MOTOR.c...
+..\HARDWARE\MOTOR\MOTOR.c(27): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\MOTOR\MOTOR.c: 1 warning, 0 errors
+compiling pwm.c...
+..\HARDWARE\BALANCE\balance.h(43): warning:  #1295-D: Deprecated declaration X_PID_INIT - give arg types
+  void X_PID_INIT();
+..\HARDWARE\BALANCE\balance.h(44): warning:  #1295-D: Deprecated declaration Y_PID_INIT - give arg types
+  void Y_PID_INIT();
+..\HARDWARE\SCARA\SCARA.h(37): warning:  #1295-D: Deprecated declaration Position_init - give arg types
+  int Position_init();
+..\HARDWARE\SCARA\SCARA.h(38): warning:  #1295-D: Deprecated declaration motion - give arg types
+  void motion();
+..\HARDWARE\SCARA\SCARA.h(39): warning:  #1295-D: Deprecated declaration Coordinate_Transformation - give arg types
+  void Coordinate_Transformation();
+..\HARDWARE\PWM\pwm.c: 5 warnings, 0 errors
+compiling openmv.c...
+..\HARDWARE\SCARA\SCARA.h(37): warning:  #1295-D: Deprecated declaration Position_init - give arg types
+  int Position_init();
+..\HARDWARE\SCARA\SCARA.h(38): warning:  #1295-D: Deprecated declaration motion - give arg types
+  void motion();
+..\HARDWARE\SCARA\SCARA.h(39): warning:  #1295-D: Deprecated declaration Coordinate_Transformation - give arg types
+  void Coordinate_Transformation();
+..\HARDWARE\OPENMV\openmv.c: 3 warnings, 0 errors
+compiling SCARA.c...
+..\HARDWARE\SCARA\SCARA.h(37): warning:  #1295-D: Deprecated declaration Position_init - give arg types
+  int Position_init();
+..\HARDWARE\SCARA\SCARA.h(38): warning:  #1295-D: Deprecated declaration motion - give arg types
+  void motion();
+..\HARDWARE\SCARA\SCARA.h(39): warning:  #1295-D: Deprecated declaration Coordinate_Transformation - give arg types
+  void Coordinate_Transformation();
+..\HARDWARE\BALANCE\balance.h(43): warning:  #1295-D: Deprecated declaration X_PID_INIT - give arg types
+  void X_PID_INIT();
+..\HARDWARE\BALANCE\balance.h(44): warning:  #1295-D: Deprecated declaration Y_PID_INIT - give arg types
+  void Y_PID_INIT();
+..\HARDWARE\SCARA\SCARA.c: 5 warnings, 0 errors
+compiling balance.c...
+..\HARDWARE\BALANCE\balance.h(43): warning:  #1295-D: Deprecated declaration X_PID_INIT - give arg types
+  void X_PID_INIT();
+..\HARDWARE\BALANCE\balance.h(44): warning:  #1295-D: Deprecated declaration Y_PID_INIT - give arg types
+  void Y_PID_INIT();
+..\HARDWARE\SCARA\SCARA.h(37): warning:  #1295-D: Deprecated declaration Position_init - give arg types
+  int Position_init();
+..\HARDWARE\SCARA\SCARA.h(38): warning:  #1295-D: Deprecated declaration motion - give arg types
+  void motion();
+..\HARDWARE\SCARA\SCARA.h(39): warning:  #1295-D: Deprecated declaration Coordinate_Transformation - give arg types
+  void Coordinate_Transformation();
+..\HARDWARE\BALANCE\balance.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=28824 RO-data=1200 RW-data=432 ZI-data=1904  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 31 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
